@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    font-size: 21px;
+    animation-name: games;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes games {
+    0%{background-image: url(https://i.ytimg.com/vi/j1C0_7bIOtY/maxresdefault.jpg);}
+    10%{background-image: url(https://i.ytimg.com/vi/KzKvPrIPVbE/maxresdefault.jpg);}
+    20%{background-image: url(https://coolthemestores.com/wp-content/uploads/2021/04/assassins-creed-chrome-theme-wallpaper.jpg);}
+    30%{background-image: url(https://i.ytimg.com/vi/74m2BFKamls/maxresdefault.jpg);}
+    40%{background-image: url(https://content.tomplay.com/preview/2020/08/Gustavo-Santaolalla-The-Last-of-Us-Theme.jpg);}
+    50%{background-image: url(https://archive.org/download/doom-ost/1993%20-%20DOOM/epic.jpg);}
+    60%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJsw5_vhFVxxDt7sSz6-v5mx8OcNmhGR54Hw&usqp=CAU);}
+    70%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUdL3rEqkqp5k6RJLnO4eJw0c5oKJzm7RisA&usqp=CAU);}
+    80%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbdnInMlKPijbNDnvKxHAyx3-NQuhDy7T4dw&usqp=CAU);}
+    90%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGt6Z3xgHKDLeCONfjsrE9nZcVpzOKNe0U4g&usqp=CAU);}
+    100%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXErw8GkwYUQomziVSV9y1mBflaoAgyUhh7Q&usqp=CAU);}
+}
+
+
+section{
+    align-items: center;
+    display: flex;
+}
+
+section{
+    margin-top:100px ;
+    margin-bottom: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+
+.title{
+    display: flex;
+    margin-top: 6px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title #title{
+    font-size: 33px;
+}
+
+.title #description{
+    font-size: 25px;
+}
+
+#name,#email,#age,#dropdown{
+    width: 100%;
+    height: 40px;
+    font-size: 21px;
+}
+#submit{
+    width: 100%;
+    height: 40px;
+    background-color: #3a6cf4;
+    font-size: 21px;
+    color: aliceblue;
+}
+#opinion{
+        width: 100%;
+    }
+
+@media(max-width:1000px){
+    #submit,#name,#email,#age,#dropdown{
+        height: 30px;
+        font-size: 16px;
+    }
+    .form{
+        font-size: 16px;
+    }
+    .title #title{
+        font-size: 25px;
+    }
+    .title #description{
+        font-size: 20px;
+    }
+}

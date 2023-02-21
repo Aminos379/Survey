@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="survey,freecodecamp">
+        <title>survey</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <section><main>
+
+            <div class="title">
+                <h1 id="title">survey game</h1>
+                <p id="description"> Thank you for taking the time to answer on our game survey:</p>
+            </div>
+            
+            <div class="form">
+
+                <form action="" id="survey-form">
+                    <br><label for="name" id="name-label">Name</label><br>
+                    <input type="text" id="name" placeholder="Enter your name" required><br><br>
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" id="name" placeholder="Enter your Email" required><br><br>
+                    <label for="age" id="number-label">Age(optional)</label><br>
+                    <input type="number" id="age" min="13" max="80" placeholder="Age" required><br><br>
+                    <p>Are you into games?</p>
+                    <input type="radio" name="i like games" value="yes" class="radio">
+                    <label>Yes</label><br>
+                    <input type="radio" name="i like games" value="no" class="radio">
+                    <label>No</label><br><br>
+                    <label for="genre" id="dropdown-label">Your favourites game types</label><br>
+                    <select name="genre"            id="dropdown">
+                        <option >Sandbox</option>
+                        <option >Real-time strategy (RTS)</option>
+                        <option >Shooters (FPS and TPS)
+                        </option>
+                        <option >Multiplayer online battle arena (MOBA)
+                        </option>
+                        <option >Role-playing (RPG, ARPG, and More)
+                        </option>
+                        <option >Simulation and sports
+                        </option>
+                        <option >Puzzlers and party games
+                        </option>
+                        <option >Action-adventure
+                        </option>
+                        <option >Survival and horror
+                        </option>
+                        <option >Platformer
+                        </option>
+                    </select><br><br>
+                    <p>Wich devices do you play video games:</p>
+                    <input type="checkbox" id="checkbox-ps4" value="ps4" name="ps4">
+                    <label for="ps4">ps4</label><br>
+                    <input type="checkbox" id="checkbox-ps5" value="ps5" name="ps5">
+                    <label for="ps5">ps5</label><br>
+                    <input type="checkbox" id="checkbox-ps3" value="ps3" name="ps3">
+                    <label for="ps3">ps3</label><br>
+                    <input type="checkbox" id="checkbox-wii" value="wii" name="wii">
+                    <label for="wii">WII</label><br>
+                    <input type="checkbox" id="checkbox-pc" value="pc" name="pc">
+                    <label for="pc">PC Gamer</label><br><br>
+                    <p id="opinion-label">What will be the game of the year in your opinion?and why you think so?</p>
+                    <textarea name="opinion" id="opinion"></textarea><br>
+                    <input type="submit" value="submit" id="submit">
+                </form>
+                
+            </div>
+
+        </main>
+    
+    </section>
+        
+    </body>
+
+</html>
